@@ -9,7 +9,7 @@ public class ExplodeCircle : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyUp("space"))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             print("Exploding ...");
             Explode();

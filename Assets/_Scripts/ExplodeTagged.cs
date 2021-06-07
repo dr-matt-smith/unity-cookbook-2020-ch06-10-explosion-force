@@ -15,7 +15,7 @@ public class ExplodeTagged : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp("space"))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             Explode();
         }
