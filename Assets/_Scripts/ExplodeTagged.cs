@@ -24,7 +24,7 @@ public class ExplodeTagged : MonoBehaviour
     // add explosion force to child objects           
     private void Explode()
     {
-        foreach(GameObject gameObject in _gameObjects){
+        foreach(var gameObject in _gameObjects){
             Rigidbody2D rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
             rigidbody2D.AddExplosionForce(force, transform.position, radius);
         }
